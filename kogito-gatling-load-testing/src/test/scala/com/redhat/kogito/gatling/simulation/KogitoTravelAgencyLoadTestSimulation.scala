@@ -15,7 +15,7 @@ class KogitoTravelAgencyLoadTestSimulation extends Simulation {
   val httpConf: HttpProtocolBuilder = http.baseUrl(Environemnt.baseURL)
       .headers(Headers.commonHeader)
 
-    setUp(TravelRequest.postTravel.inject(atOnceUsers(10)))
+    setUp(TravelRequest.postTravel.inject(atOnceUsers(1)))
       .protocols(httpConf)
       .maxDuration(5 minutes)
       .assertions(

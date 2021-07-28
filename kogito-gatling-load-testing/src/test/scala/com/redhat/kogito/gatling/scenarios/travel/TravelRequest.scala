@@ -63,7 +63,7 @@ object TravelRequest {
          |		"city": "My City",
          |		"firstName": "My First Name",
          |		"lastName": "My Last Name",
-         |		"duration": 14,
+         |		"duration": 10,
          |		"passportNumber": "PP3423434",
          |		"nationality": "Polish"
          |	}
